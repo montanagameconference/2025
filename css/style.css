@@ -245,7 +245,8 @@ header{
 
 .service{
     padding: 100px 0;
-    background-color: #111;
+    /* background-color: #111; */
+    background-image: url('../img/cadenBanner.jpeg');
 }
 .service .container{
     display: flex;
