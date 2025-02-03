@@ -392,6 +392,8 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    border-color: #e4405f;
+    border-width: 2px;
 }
 .card{
     width: 375px;
