@@ -253,6 +253,18 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.participate{
+    padding: 100px 0;
+    /* background-color: #111; */
+    background: gray;
+}
+.participate .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .circle{
     position: relative;
     width: 400px;
