@@ -199,6 +199,8 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
+    background-image: url('../img/banner1.jpg');
+    
 }
 .head__blog{
     position: relative;
