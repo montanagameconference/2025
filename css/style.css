@@ -260,6 +260,9 @@ header{
 .participate{
     padding: 100px 0;
     /* background-color: #111; */
+    border-style: solid;
+    border-color: #e4405f;
+  
    border-width: 1px;
 }
 .participate .container{
@@ -392,9 +395,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border-style: solid;
-    border-color: #e4405f;
-    border-width: 2px;
+   
 }
 .card{
     width: 375px;
