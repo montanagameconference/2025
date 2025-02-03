@@ -260,7 +260,7 @@ header{
 .participate{
     padding: 100px 0;
     /* background-color: #111; */
-    background: gray;
+   border-width: 1px;
 }
 .participate .container{
     display: flex;
