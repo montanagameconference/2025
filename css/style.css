@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Nulshock';
+    src: url(./fonts/Nulshock.otf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Nulshock';
 }
 :root {
 
@@ -88,7 +93,7 @@ a{
     right: 30px;
     width: 45px;
     height: 50px;
-    background: crimson;
+    background: #EA1168;
     text-align: center;
     color: #fff;
     line-height: 50px;
@@ -123,13 +128,13 @@ header{
 }
 @keyframes slider{
     0% {
-        background: url('../img/banner1.jpg') no-repeat center / cover;
+        background: url('../img/banner1.png') no-repeat center / cover;
     }
     50%{
-        background: url('../img/banner2.jpg') no-repeat center / cover;
+        background: url('../img/banner2.png') no-repeat center / cover;
     }
     100% {
-        background: url('../img/banner1.jpg') no-repeat center / cover;
+        background: url('../img/banner1.png') no-repeat center / cover;
     }
 }
 
@@ -143,7 +148,7 @@ header{
     transition: all 0.5s ease;
 }
 .nav.sticky{
-    background-color: crimson;
+    background-color: #EA1168;
     padding: 15px 0;
     transition: all 0.5s ease;
 }
@@ -178,7 +183,7 @@ header{
     margin-right: 10px;
 }
 .logo_text:hover{
-    color: crimson;
+    color: #EA1168;
     transition: 0.5s ease;
 }
 .nav__link{
@@ -190,7 +195,7 @@ header{
     transition: all 0.5s ease;
 }
 .nav__link:hover{
-    color: crimson;
+    color: #EA1168;
     transition: 0.5s ease;
 }
 
@@ -199,7 +204,7 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../img/banner1.jpg');
+    background-image: url('../img/banner1.png');
     
 }
 .head__blog{
@@ -211,7 +216,7 @@ header{
     color: #fff;
 }
 .head__info span{
-    color: crimson;
+    color: #EA1168;
 }
 .head__text{
     font-size: 32px;
@@ -222,23 +227,23 @@ header{
 .head__name{
     font-size: 72px;
     font-weight: 900;
-    color: crimson;
+    color: #EA1168;
     padding-bottom: 30px;
 }
 .head__link{
     padding: 15px 30px;
-    background: crimson;
+    background: #EA1168;
     color: #fff;
     border-radius: 10px;
     font-weight: bold;
     font-size: 20px;   
     transition: all 0.5s ease;
-    border: 2px solid crimson;
+    border: 2px solid #EA1168;
     cursor: pointer;
 }
 .head__link:hover{
     background: none;
-    color: crimson;
+    color: #EA1168;
     transition: all 0.5s ease;
 }
 
@@ -248,7 +253,7 @@ header{
 .service{
     padding: 100px 0;
     /* background-color: #111; */
-    background-image: url('../img/cadenBanner.jpeg');
+    background-image: url('../img/cadenBanner.png');
     height: 70%;
 }
 .service .container{
@@ -288,7 +293,7 @@ header{
 }
 .circle:hover span:nth-child(1){
     border: none;
-    background-color: crimson;
+    background-color: #EA1168;
     transition: all 0.5s ease;
 }
 .circle span:nth-child(2){
@@ -304,7 +309,7 @@ header{
 }
 .circle:hover span:nth-child(2){
     border: none;
-    background-color: crimson;
+    background-color: #EA1168;
     transition: all 0.5s ease;
 }
 .circle span:nth-child(3){
@@ -320,7 +325,7 @@ header{
 }
 .circle:hover span:nth-child(3){
     border: none;
-    background-color: crimson;
+    background-color: #EA1168;
     transition: all 0.5s ease;
 }
 
@@ -347,7 +352,7 @@ header{
 }
 .circle__title{
     padding-bottom: 15px;
-    color: crimson;
+    color: #EA1168;
     font-size: 30px;
     font-weight: bold;
     transition: all 0.5s ease;
@@ -361,7 +366,7 @@ header{
     line-height: 24px;
 }
 .circle__link{
-    color: crimson;
+    color: #EA1168;
     transition: all 0.5s ease;
 }
 .circle:hover .circle__link{
@@ -371,7 +376,7 @@ header{
     padding: 10px 20px;
     background-color: #fff;
     border-radius: 22% 78% 19% 81% / 49% 47% 53% 51%;
-    color: crimson;
+    color: #EA1168;
     transition: all 0.5s ease;
 }
 
@@ -385,7 +390,7 @@ header{
     text-align: center;
     font-size: 36px;
     padding-bottom: 50px;
-    color: crimson;
+    color: #EA1168;
 }
 .cards{
     display: flex;
@@ -398,6 +403,7 @@ header{
   
    border-width: 1px;
     border-radius: 25px;
+    margin: 4px;
    
 }
 .card{
@@ -499,7 +505,7 @@ header{
 .card-icons i{
     cursor: pointer;
     font-size: 22px;
-    color: crimson;
+    color: #EA1168;
     padding: 15px 10px;
     transform: translateY(100px);
     transition: all 0.5s ease;
@@ -521,7 +527,7 @@ header{
 .art__title{
     font-size: 36px;
     padding-bottom: 50px;
-    color: crimson;
+    color: #EA1168;
 }
 
 .art__content{
@@ -600,7 +606,7 @@ header{
     transition: all 0.3s ease;
 }
 .box__content i:hover{
-    color: crimson;
+    color: #EA1168;
 }
 .box__icons{
     display: flex;
@@ -622,8 +628,8 @@ header{
     font-size: 18px;
     padding: 10px 20px;
     margin-left: 20px;
-    background: crimson;
-    border: 2px solid crimson;
+    background: #EA1168;
+    border: 2px solid #EA1168;
     border-radius: 10px;
     color: #fff;
     font-weight: bold;
@@ -635,7 +641,7 @@ header{
 }
 .art__down__link:hover{
     background: none;
-    color: crimson;
+    color: #EA1168;
 }
 .art__down__text{
     font-size: 18px;
